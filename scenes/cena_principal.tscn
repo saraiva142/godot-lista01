@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dbt8cowf2lap0"]
+
+[ext_resource type="PackedScene" uid="uid://dmvykvrtqnwms" path="res://scenes/l_shape_3d.tscn" id="1_v1bcl"]
+
+[node name="cena_principal" type="Node3D"]
+
+[node name="LShape3D" parent="." instance=ExtResource("1_v1bcl")]

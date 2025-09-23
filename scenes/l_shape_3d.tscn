@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://dmvykvrtqnwms"]
+
+[ext_resource type="Script" uid="uid://jujod2de2nik" path="res://scripts/LShape3D.gd" id="1_gbgqe"]
+
+[node name="LShape3D" type="Node3D"]
+script = ExtResource("1_gbgqe")
+
+[node name="RotationPivot" type="Node3D" parent="."]
+visible = false
+script = ExtResource("1_gbgqe")
+
+[node name="Camera3D" type="Camera3D" parent="RotationPivot"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="RotationPivot"]
